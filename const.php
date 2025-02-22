@@ -1,0 +1,34 @@
+<DOCTYPE! html>
+<html lang = "ja">
+  <head> 
+    <meta charset = "UTF-8">
+    <title>php基礎編</title>
+  </head>
+  <body>
+    <p>
+      <?php
+      const SHIPPING_FEE = 500;
+      echo SHIPPING_FEE;
+      echo '<br>';
+      class Product {
+        public const TAX = 1.1;
+      }
+      echo Product::TAX . '<br>';
+      ?>
+    </p>
+    <p>
+      <?php
+      const SEVEN_REGIONS = [
+        '北海道地方',
+            '東北地方',
+             '関東地方',
+             '中部地方',
+             '近畿地方',
+             '中国・四国地方',
+             '九州地方'
+      ];
+      print_r(SEVEN_REGIONS);
+      ?>
+    </p>
+  </body> 
+</html>
